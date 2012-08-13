@@ -20,7 +20,7 @@ alias cls='clear; pwd; ls -FG --color=auto'
 py='python'
 
 #django specific things
-manage='python manage.py"
+manage='python manage.py'
 
 #safe copy and move
 #alias mv='mv -i'
@@ -35,12 +35,6 @@ alias keyon="ssh-add -t 10800"
 alias keyoff='ssh-add -D'
 alias keylist='ssh-add -l'
 
-#pacman aliass
-alias sps='sudo pacman -S'
-#alias pup='sudo pacman -Syu'
-alias pup='yaourt -Syu --aur'
-
-#alias sqlplus='rlwrap sqlplus'
 
 g() {
   if [[ $# == '0' ]]; then
