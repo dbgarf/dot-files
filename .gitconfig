@@ -1,0 +1,20 @@
+[user]
+    name = Dan Garfield
+    email = dbgarf@gmail.com
+
+[alias]
+        co = checkout
+        s = status
+        a = add
+        d = difftool
+        c = commit 
+        ca = commit -a
+        pr = pull --rebase
+        pom = push origin master
+        l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	
+[color]
+	ui = auto
+
+[core]
+    excludesfile = /home/dbgarf/.gitignore_global

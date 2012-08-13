@@ -1,0 +1,13 @@
+.swp
+.tmp
+.pyo
+.class
+.jar
+.classpath
+.settings
+.project
+*.iml
+.idea
+*~
+.pyc
+
