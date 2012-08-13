@@ -17,10 +17,10 @@ alias top='htop'
 alias cls='clear; pwd; ls -FG --color=auto'
 
 #python specific things
-py='python'
+alias py='python'
 
 #django specific things
-manage='python manage.py'
+alias manage='python manage.py'
 
 #safe copy and move
 #alias mv='mv -i'
